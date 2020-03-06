@@ -1,0 +1,7 @@
+body{
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    z-index: 9999;
+}

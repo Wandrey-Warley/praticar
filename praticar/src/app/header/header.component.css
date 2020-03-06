@@ -1,13 +1,10 @@
 .header{
-    background-color: #1ba10a;
+    background-color: #00cc25;
     color: white;
-    margin-top: 48px;
-    padding: 20px;
+    margin-top: 45px;
+    padding-top: 20px;
     width: 100%;
-    left: 0px;
-    top: 0px; 
-    flex-wrap: wrap; 
-    box-shadow: 0px 2px 2px #1ba10a;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.9);
 }
 .titleheader{
     text-align: center;

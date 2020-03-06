@@ -1,0 +1,20 @@
+mat-card{
+    margin: 10px;
+}
+.nome{
+    width: 300px;
+}
+.email{
+    width: 200px;
+}
+.telefone{
+    width: 200px;
+}
+.cadastro{
+    width: 70%;
+}
+.center{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
