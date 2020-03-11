@@ -1,20 +1,25 @@
-<div>
+<body>
   <div class="menu">
     <app-toolbar>Loading...</app-toolbar>
   </div>
   <app-header>Loadiny Apg...</app-header>
+
+  <app-cadastro style="display: flex; justify-content: center;"></app-cadastro>
   
-  <app-cadastro></app-cadastro>
-  
-  <mat-grid-list cols="5" rowHeight="2:1">
-    <mat-grid-tile><mat-card>Meu primeiro cartão</mat-card></mat-grid-tile>
-    <mat-grid-tile><mat-card>Meu primeiro cartão</mat-card></mat-grid-tile>
-    <mat-grid-tile><mat-card>Meu primeiro cartão</mat-card></mat-grid-tile>
-    <mat-grid-tile><mat-card>Meu primeiro cartão</mat-card></mat-grid-tile>
+  <mat-grid-list cols="3" rowHeight="4:1">
+    <mat-grid-tile><mat-card>Coluna 1 Linha 1</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 2 Linha 1</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 3 Linha 1</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 1 Linha 2</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 2 Linha 2</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 3 Linha 2</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 1 Linha 3</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 2 Linha 3</mat-card></mat-grid-tile>
+    <mat-grid-tile><mat-card>Coluna 3 Linha 3</mat-card></mat-grid-tile>
   </mat-grid-list>
 
   <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
 
-</div>
+</body>
 
 <router-outlet></router-outlet>

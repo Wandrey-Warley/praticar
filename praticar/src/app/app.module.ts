@@ -15,6 +15,9 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { MatIconModule } from '@angular/material/icon';
+
+
 
 
 @NgModule({
@@ -22,7 +25,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
     AppComponent,
     ToolbarComponent,
     HeaderComponent,
-    CadastroComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { CadastroComponent } from './cadastro/cadastro.component';
     MatProgressSpinnerModule,
     MatProgressBarModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
