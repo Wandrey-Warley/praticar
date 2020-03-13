@@ -12,37 +12,27 @@ div, span, span1{
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.9);
 }
 button{
-    padding: 10px;
+    padding: 10px 50px;
     color: white;
 }
 button:hover{
     padding: 8px;
     border: 2px solid black;
     -webkit-animation-name: cor;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes cor{
     0%{
         background-color: black;
-        padding: 8px;
+        padding: 8px 48px;
         border: 2px solid black;
     }
-    25%{
-        background-color: rgb(255, 0, 0);
-        color: blueviolet;
-    }
-    50%{
-        background-color: rgb(55, 0, 255);
-        color: red;
-    }
-    75%{
-        background-color: rgb(251, 255, 0);
-        color: blue;
-    }
+    
     100%{
-        border: 2px solid white;
         background-color: #00cc25;
+        padding: 8px 48px;
+        border: 2px solid white;
     }
 }
