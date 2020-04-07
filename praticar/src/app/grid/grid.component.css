@@ -1,0 +1,35 @@
+mat-card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow:0px 0px 5px 1px rgb(0, 0, 0);
+}
+mat-card:hover{
+    background-color: #00cc25;
+    color: white;
+    font-size: 14pt;
+    text-shadow: white;
+    text-decoration: double;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    -webkit-animation-name: expandir;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-fill-mode: forwards; 
+}
+@-webkit-keyframes expandir{
+    0%{
+        border-radius: 2px;
+        height: 30px;
+        width: 50%;
+    }
+    100%{
+        border: 2px solid white;
+        border-radius: 50px;
+        height: 30px;
+        width: 80%;
+        font-size: 26pt;
+    }
+}

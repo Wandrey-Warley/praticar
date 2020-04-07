@@ -1,71 +1,7 @@
 body{
     width: 100%;
-    min-width: 50%;
 }
 .menu{
     position: absolute;
     z-index: 9999;
 }
-mat-card{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-}
-mat-card:hover{
-    background-color: #00cc25;
-    color: white;
-    font-size: 14pt;
-    text-shadow: white;
-    text-decoration: double;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    animation-duration: 1s;
-    animation-name: expandir; 
-}
-
-@keyframes expandir{
-    from{
-        width: 70%;
-    }
-    to{
-        width: 90%;
-    }
-}
-
-
-/* Teste */
-
-
-.demo {
-    border-top: 100px solid #ccc;
-    height: 300px;
-    font-family: sans-serif;
-  }
-  
-  @keyframes grow {
-      0% { font-size: 0 }
-      100% { font-size: 40px }
-  }
-  
-  @-webkit-keyframes grow {
-      0% { font-size: 0 }
-      100% { font-size: 40px }
-  }
-  
-  .demo:hover .grows {
-      animation-name: grow;
-      animation-duration: 3s;
-      -webkit-animation-name: grow;
-      -webkit-animation-duration: 3s;
-  }
-  
-  .demo:hover .growsandstays {
-      animation-name: grow;
-      animation-duration: 3s;
-      animation-fill-mode: forwards;
-      -webkit-animation-name: grow;
-      -webkit-animation-duration: 3s;
-      -webkit-animation-fill-mode: forwards;
-  }

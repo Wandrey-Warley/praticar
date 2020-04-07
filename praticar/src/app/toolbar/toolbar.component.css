@@ -12,37 +12,30 @@ div, span, span1{
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.9);
 }
 button{
-    padding: 10px;
+    /*margin: 10px 50px;*/
+    padding: 10px 50px;
     color: white;
+    font-size: 120%;
 }
-button:hover{
-    padding: 8px;
-    border: 2px solid black;
+mat-button:hover{
     -webkit-animation-name: cor;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 100ms;
     -webkit-animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes cor{
     0%{
         background-color: black;
-        padding: 8px;
+        padding: 0px 0px;
+        margin: 8px 48px;
         border: 2px solid black;
     }
-    25%{
-        background-color: rgb(255, 0, 0);
-        color: blueviolet;
-    }
-    50%{
-        background-color: rgb(55, 0, 255);
-        color: red;
-    }
-    75%{
-        background-color: rgb(251, 255, 0);
-        color: blue;
-    }
+
     100%{
+        background-color: #af0000;
+        color: rgb(255, 255, 255);
+        padding: 8px 48px;
+        margin: 0px 0px;
         border: 2px solid white;
-        background-color: #00cc25;
     }
 }
