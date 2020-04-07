@@ -1,5 +1,5 @@
 .header{
-    background-color: #00cc25;
+    background-color: #ff0000;
     color: white;
     margin-top: 45px;
     padding-top: 20px;
@@ -9,4 +9,15 @@
 .titleheader{
     text-align: center;
     padding: 10px;
+}
+h1{
+    font-size: 200%;
+}
+h3{
+    font-size: 150%;
+}
+h1:hover{
+    color: rgb(229, 255, 0);
+    font-size: 250%;
+    font-family: cursive;
 }

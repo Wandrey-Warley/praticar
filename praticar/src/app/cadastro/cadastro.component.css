@@ -1,5 +1,21 @@
 mat-card{
-    margin: 10px;
+    margin: 20px;
+}
+mat-card:hover{
+    -webkit-animation-duration: 100ms;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-name: borda;
+}
+@-webkit-keyframes borda{
+    0%{
+        margin: 20px;
+        border: 0px solid black;
+    }
+    100%{
+        border-radius: 15px;
+        border: 2px solid black;
+        margin: 18px;
+    }
 }
 tr{
     display: flex; 
@@ -10,22 +26,17 @@ tr{
 td{
     display: flex;
 }
-tr:nth-child(){
-   
-}
-.nome, .email{
-    
-}
 .telefone{
     display: flex;
 }
 .cadastro{
     width: 60%;
     min-width: 150px;
+    border-radius: 3px;
+    box-shadow:0px 0px 5px 1px rgb(0, 0, 0);
 }
 .center{
     min-width: 100px;
-    
     display: flex;
     justify-content:center;
     flex-wrap: wrap;

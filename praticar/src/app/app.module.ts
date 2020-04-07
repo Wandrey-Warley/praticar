@@ -16,6 +16,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { MatIconModule } from '@angular/material/icon';
+import { SliderComponent } from './slider/slider.component';
+import { GridComponent } from './grid/grid.component';
 
 
 
@@ -25,7 +27,9 @@ import { MatIconModule } from '@angular/material/icon';
     AppComponent,
     ToolbarComponent,
     HeaderComponent,
-    CadastroComponent
+    CadastroComponent,
+    SliderComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
